@@ -25,7 +25,7 @@
     width: 300%;
 }
 
-.link-cofing a{
+.link-cofig a{
     font-weight: bold;
     background-color: rgb(185, 250, 120);
     color: white;
@@ -33,7 +33,7 @@
     border-radius: 3px;
 }
 
-link-cofing a:hover{
+link-cofig a:hover{
     color: red;
     background-color: lime;
 }
@@ -42,9 +42,12 @@ link-cofing a:hover{
     margin-bottom: 20px;
 }
 
-@media screen and (min-width: 1125px) {
+@media screen and (max-width: 1125px) {
     body{
         background-color: lightgreen;
+    }
+    .espacamento{
+        margin-bottom: 2opx;
     }
 }
 
